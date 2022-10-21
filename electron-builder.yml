@@ -1,5 +1,5 @@
 appId: 'plunderageserver'
-productName: 'Helios Launcher'
+productName: 'Plunderage Server'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2022 Daniel Scalzi'

@@ -339,10 +339,10 @@ function asyncSystemScan(mcVersion, launchAfter = true){
                     $('#overlayContent').fadeOut(250, () => {
                         //$('#overlayDismiss').toggle(false)
                         setOverlayContent(
-                            'Java is Required<br>to Launch',
-                            'A valid x64 installation of Java 8 is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.',
-                            'I Understand',
-                            'Go Back'
+                            '시작하려면 Java가<br>필요합니다',
+                            '시작하려면 Java 16의 설치가 필요합니다.<br><br>Java를 수동으로 설치하는 방법은 <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide </a>를 참조하십시오.',
+                            '확인',
+                            '뒤로가기'
                         )
                         setOverlayHandler(() => {
                             toggleLaunchArea(false)
